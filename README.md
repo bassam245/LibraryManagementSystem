@@ -1,49 +1,45 @@
-Library Management System
+ Library Management System
 
-This is a simple C# console application that manages a library system.
-The project is implemented using Object-Oriented Programming concepts and custom data structures without using built-in collections like List<T>.
+A simple C# console application to manage a small library.  
+This project demonstrates Object-Oriented Programming (OOP) principles, custom data structures, and manual algorithm implementations such as insertion sort and binary search.
 
-Project Features
+ Features : 
 
-- Add books and members
-- Sort books by ID using Insertion Sort (manual implementation)
-- Search for a book using Binary Search (manual implementation)
+- Add and manage books and members
 - Borrow and return books
-- Custom generic list structure (Listt<T>)
+- Sort books by ID using manual Insertion Sort
+- Search for a book by ID using Binary Search
+- Custom generic list implementation (Listt<T>)
 
-Technologies Used
+Technologies : 
 
 - C#
 - .NET Console Application
 
-Project Structure
+ Project Structure : 
 
-The project is organized as follows:
+- Models: Book, Member, and Person classes
+- DataStructures: Contains Listt<T>
+- Algorithms: InsertionSort and BinarySearch logic
+- Services: Contains main library logic in Mangeliprary.cs
+- Program.cs: The main entry point to run and test the system
 
-- Models/: Contains the basic classes like Book, Member, and Person
-- DataStructures/: Contains the manually implemented Listt<T>
-- Algorithms/: Contains InsertionSort and BinarySearch
-- Services/: Contains the logic of the library system in LibraryManager.cs
-- Program.cs: Entry point where the system is tested
+ How It Works : 
 
-Sample Functionality
+- Books are added manually in Program.cs
+- Members can borrow or return books
+- Book list is displayed before and after sorting
+- System checks whether a book exists and shows its position
 
-- Books can be added manually
-- A member can borrow or return a book by ID
-- The system displays all books before and after sorting
-- When searching, it returns whether the book exists or not and its position if found
+ Output Example : 
 
-Output Example
+ [Console Output](Assests/OutputExample.png)
 
-Below is a sample screenshot from the console output of the system:
+ Notes : 
 
-![Console Output](Assets/OutputExample.png)
+- All lists and algorithms are implemented manually (no built-in collections)
+- This project focuses on understanding the logic behind data structures and OOP
 
-Notes
+ Author : 
 
-- The list and algorithms are implemented manually for learning purposes
-- The system does not use any advanced libraries or UI — it's focused on practicing C# logic
-
-Author
-
-This project was implemented as part of learning and practice in Object-Oriented Programming and Algorithms in C#.
+Built as a learning project by Bassam for improving C# skills and practicing real-world programming logic.
